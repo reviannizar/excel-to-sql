@@ -31,19 +31,21 @@ Yii2 Tools for create sql from excel file
 
 ### Cara Instalasi
 
-1. download dan ekstak ke folder vendor 
+1. Aplikasi di jalankan menggunakan yii2
+
+2. download dan ekstak ke folder vendor 
 
 ~~~
 [@vendor/revian/jbiru/]
 ~~~
 
-2. Tambah / edit bagian bawah file config/web.php 
+3. Tambah / edit bagian bawah file config/web.php 
   
 ~~~
 return array_merge_recursive($config, require(dirname(__DIR__).'/vendor/revian/jbiru/config/web.php'));
 ~~~
 
-3. Jalankan
+4. Jalankan
 
 ~~~
 xxx/web/index.php?r=admin/tools/excel-to-sql
