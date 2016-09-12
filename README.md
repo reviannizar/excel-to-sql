@@ -1,7 +1,8 @@
-### excel-to-sql
+# excel-to-sql
+
 Yii2 Tools for create sql from excel file
 
-# Aplikasi tools membuat table dari excel
+### Aplikasi tools membuat table dari excel
 
 1. Membuat struktur tabel di excel (dengan format tertentu) kemudian di upload dan menjadi format sql
 
@@ -11,7 +12,7 @@ Yii2 Tools for create sql from excel file
 
 
 
-# Latar belakang
+### Latar belakang
 
 1. Kebiasaan yang bisa dikatakan kurang baik, yaitu membuat aplikasi database dengan langsung mengetikkan query CREATE TABLE, INSERT dan UPDATE secara manual menggunakan text editor biasa.
 
@@ -19,7 +20,7 @@ Yii2 Tools for create sql from excel file
 
 
 
-# Komponen yang digunakan
+### Komponen yang digunakan
 
 1. Button klik tampil open file dialog menggunakan class btn-file dari adminLTE
 
@@ -28,7 +29,7 @@ Yii2 Tools for create sql from excel file
 3. Ekstak file excel (.xls) menggunakan php-excel-reader http://code.google.com/p/php-excel-reader/wiki/Documentation
 
 
-# Cara Instalasi
+### Cara Instalasi
 
 1. download dan ekstak ke folder vendor 
 
